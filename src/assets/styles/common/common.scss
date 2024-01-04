@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+body {
+    background: var(--backHeadBtnColor);
+}
+
+:root {
+
+    --primaryColor: hsl(31, 77%, 52%);
+    --secondaryColor: hsl(184, 100%, 22%);
+    --thirdColor: hsl(179, 100%, 13%);
+
+    --paragraphsColor: hsla(0, 0%, 100%, 0.75);
+    --backHeadBtnColor: hsl(0, 0%, 95%);
+}
